@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="AGM Media is a lightweight creator workspace for preparing and publishing short-form video content." />
+  <title>AGM Media</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html">AGM <span>Media</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">SHORT-FORM CONTENT WORKSPACE</div>
+      <h1>Create. Review.<br><em>Publish.</em></h1>
+      <p class="lede">
+        AGM Media is a lightweight creator workspace for preparing short-form videos,
+        reviewing publishing details, and sending approved content to connected social platforms.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="#about">How it works</a>
+        <a class="button secondary" href="privacy.html">Privacy policy</a>
+      </div>
+    </section>
+
+    <section id="about" class="grid">
+      <article class="card">
+        <div class="num">01</div>
+        <h2>Prepare</h2>
+        <p>Organize finished video content and the metadata needed for publishing.</p>
+      </article>
+      <article class="card">
+        <div class="num">02</div>
+        <h2>Review</h2>
+        <p>Check captions, publishing settings, and the final media before it is sent.</p>
+      </article>
+      <article class="card">
+        <div class="num">03</div>
+        <h2>Publish</h2>
+        <p>Publish approved content through authorized platform integrations.</p>
+      </article>
+    </section>
+
+    <section class="statement">
+      <p>Built for a simple workflow:</p>
+      <h2>Finished content in.<br>Approved content out.</h2>
+    </section>
+  </main>
+
+  <footer>
+    <div>© <span id="year"></span> AGM Media</div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
